@@ -1,0 +1,706 @@
+resources:
+  - name: artifactory_monorepo_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: replicator_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: p2p_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: parent_pom_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: access_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: access_cli_plugin_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: artifactory_pro_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: commons_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: artifactory_oss_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: binary_store_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: go_commons_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: router_grpc_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: access_grpc_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: access_go_client_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: router_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: package_indexer_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: metadata_java_client_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: metadata_go_client_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: metadata_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: nodejs_commons_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: access_nodejs_client_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: artifactory_nodejs_client_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: metadata_nodejs_client_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: event_nodejs_client_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: event_grpc_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: event_service_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: event_service_e2e_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: event_java_client_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: artifactory_ci_scripts_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: artifactory_release_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+      buildOn:
+        commit: false
+  - name: installers_bitbucket
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: installers_bitbucket_1
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: installers_bitbucket_2
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: installers_bitbucket_3
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: installers_bitbucket_4
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+  - name: installers_bitbucket_5
+    type: GitRepo
+    configuration:
+      path: deepikasl/monorepo
+      gitProvider: deepikaGithub
+      branches:
+        include: ^{{gitBranch}}$
+pipelines:
+  - name: test_pipeline_stress
+    steps:
+      - name: trigger_all
+        type: Bash
+        configuration:
+          inputResources:
+            - name: artifactory_monorepo_bitbucket
+        execution:
+          onExecute:
+            - echo "trigger_all"
+      - name: test_artifactory_monorepo_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: artifactory_monorepo_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "test_artifactory_monorepo_bitbucket"
+      - name: test_replicator_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: replicator_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "replicator_bitbucket"
+      - name: test_p2p_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: p2p_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "p2p_bitbucket"
+      - name: test_parent_pom_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: parent_pom_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "parent_pom_bitbucket"
+      - name: test_access_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: access_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "access_bitbucket"
+      - name: test_access_cli_plugin_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: access_cli_plugin_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "access_cli_plugin_bitbucket"
+      - name: test_artifactory_pro_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: artifactory_pro_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "artifactory_pro_bitbucket"
+      - name: test_commons_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: commons_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "commons_bitbucket"
+      - name: test_artifactory_oss_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: artifactory_oss_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "artifactory_oss_bitbucket"
+      - name: test_binary_store_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: binary_store_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "binary_store_bitbucket"
+      - name: test_go_commons_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: go_commons_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "go_commons_bitbucket"
+      - name: test_router_grpc_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: router_grpc_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "router_grpc_bitbucket"
+      - name: test_access_grpc_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: access_grpc_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "access_grpc_bitbucket"
+      - name: test_access_go_client_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: access_go_client_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "access_go_client_bitbucket"
+      - name: test_router_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: router_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "router_bitbucket"
+      - name: test_package_indexer_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: package_indexer_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "package_indexer_bitbucket"
+      - name: test_metadata_java_client_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: metadata_java_client_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "metadata_go_client_bitbucket"
+      - name: test_metadata_go_client_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: metadata_go_client_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "metadata_go_client_bitbucket"
+      - name: test_metadata_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: metadata_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "metadata_bitbucket"
+      - name: test_nodejs_commons_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: nodejs_commons_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "nodejs_commons_bitbucket"
+      - name: test_access_nodejs_client_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: access_nodejs_client_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "access_nodejs_client_bitbucket"
+      - name: test_artifactory_nodejs_client_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: artifactory_nodejs_client_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "artifactory_nodejs_client_bitbucket"
+      - name: test_metadata_nodejs_client_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: metadata_nodejs_client_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "metadata_nodejs_client_bitbucket"
+      - name: test_event_nodejs_client_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: event_nodejs_client_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "event_nodejs_client_bitbucket"
+      - name: test_event_grpc_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: event_grpc_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "event_grpc_bitbucket"
+      - name: test_event_service_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: event_service_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "event_service_bitbucket"
+      - name: test_event_service_e2e_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: event_service_e2e_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "event_service_e2e_bitbucket"
+      - name: test_event_java_client_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: event_java_client_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "event_java_client_bitbucket"
+      - name: test_artifactory_ci_scripts_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: artifactory_ci_scripts_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "artifactory_ci_scripts_bitbucket"
+      - name: test_artifactory_release_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: artifactory_release_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "artifactory_release_bitbucket"
+      - name: test_installers_bitbucket
+        type: Bash
+        configuration:
+          inputResources:
+            - name: installers_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "installers_bitbucket"
+      - name: test_installers_bitbucket_1
+        type: Bash
+        configuration:
+          inputResources:
+            - name: installers_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "installers_bitbucket_1"
+      - name: test_installers_bitbucket_2
+        type: Bash
+        configuration:
+          inputResources:
+            - name: installers_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "installers_bitbucket_2"
+      - name: test_artifactory_monorepo_bitbucket_1
+        type: Bash
+        configuration:
+          inputResources:
+            - name: artifactory_monorepo_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "artifactory_monorepo_bitbucket_1"
+      - name: test_artifactory_monorepo_bitbucket_2
+        type: Bash
+        configuration:
+          inputResources:
+            - name: artifactory_monorepo_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "artifactory_monorepo_bitbucket_2"
+      - name: test_artifactory_monorepo_bitbucket_3
+        type: Bash
+        configuration:
+          inputResources:
+            - name: artifactory_monorepo_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "artifactory_monorepo_bitbucket"
+      - name: test_artifactory_release_bitbucket_1
+        type: Bash
+        configuration:
+          inputResources:
+            - name: artifactory_release_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "artifactory_release_bitbucket_1"
+      - name: test_artifactory_release_bitbucket_2
+        type: Bash
+        configuration:
+          inputResources:
+            - name: artifactory_release_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "artifactory_release_bitbucket_2"
+      - name: test_artifactory_release_bitbucket_3
+        type: Bash
+        configuration:
+          inputResources:
+            - name: artifactory_release_bitbucket
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "artifactory_release_bitbucket_3"
+      - name: test_installers_bitbucket_5_1
+        type: Bash
+        configuration:
+          inputResources:
+            - name: installers_bitbucket_5
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "installers_bitbucket_5"
+      - name: test_installers_bitbucket_4_1
+        type: Bash
+        configuration:
+          inputResources:
+            - name: installers_bitbucket_4
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "installers_bitbucket_4"
+      - name: test_installers_bitbucket_3_1
+        type: Bash
+        configuration:
+          inputResources:
+            - name: installers_bitbucket_3
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "installers_bitbucket_3"
+      - name: test_installers_bitbucket_2_1
+        type: Bash
+        configuration:
+          inputResources:
+            - name: installers_bitbucket_2
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "installers_bitbucket_2"
+      - name: test_installers_bitbucket_1_1
+        type: Bash
+        configuration:
+          inputResources:
+            - name: installers_bitbucket_1
+          inputSteps
+            - name: trigger_all
+        execution:
+          onExecute:
+            - echo "installers_bitbucket_1"
