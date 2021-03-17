@@ -269,7 +269,7 @@ pipelines:
         configuration:
           inputResources:
             - name: artifactory_monorepo_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -279,7 +279,7 @@ pipelines:
         configuration:
           inputResources:
             - name: replicator_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -289,7 +289,7 @@ pipelines:
         configuration:
           inputResources:
             - name: p2p_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -299,7 +299,7 @@ pipelines:
         configuration:
           inputResources:
             - name: parent_pom_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -309,7 +309,7 @@ pipelines:
         configuration:
           inputResources:
             - name: access_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -319,7 +319,7 @@ pipelines:
         configuration:
           inputResources:
             - name: access_cli_plugin_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -329,7 +329,7 @@ pipelines:
         configuration:
           inputResources:
             - name: artifactory_pro_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -339,7 +339,7 @@ pipelines:
         configuration:
           inputResources:
             - name: commons_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -349,7 +349,7 @@ pipelines:
         configuration:
           inputResources:
             - name: artifactory_oss_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -359,7 +359,7 @@ pipelines:
         configuration:
           inputResources:
             - name: binary_store_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -369,7 +369,7 @@ pipelines:
         configuration:
           inputResources:
             - name: go_commons_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -379,7 +379,7 @@ pipelines:
         configuration:
           inputResources:
             - name: router_grpc_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -389,7 +389,7 @@ pipelines:
         configuration:
           inputResources:
             - name: access_grpc_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -399,7 +399,7 @@ pipelines:
         configuration:
           inputResources:
             - name: access_go_client_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -409,7 +409,7 @@ pipelines:
         configuration:
           inputResources:
             - name: router_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -419,7 +419,7 @@ pipelines:
         configuration:
           inputResources:
             - name: package_indexer_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -429,7 +429,7 @@ pipelines:
         configuration:
           inputResources:
             - name: metadata_java_client_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -439,7 +439,7 @@ pipelines:
         configuration:
           inputResources:
             - name: metadata_go_client_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -449,7 +449,7 @@ pipelines:
         configuration:
           inputResources:
             - name: metadata_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -459,7 +459,7 @@ pipelines:
         configuration:
           inputResources:
             - name: nodejs_commons_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -469,7 +469,7 @@ pipelines:
         configuration:
           inputResources:
             - name: access_nodejs_client_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -479,7 +479,7 @@ pipelines:
         configuration:
           inputResources:
             - name: artifactory_nodejs_client_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -489,7 +489,7 @@ pipelines:
         configuration:
           inputResources:
             - name: metadata_nodejs_client_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -499,7 +499,7 @@ pipelines:
         configuration:
           inputResources:
             - name: event_nodejs_client_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -509,7 +509,7 @@ pipelines:
         configuration:
           inputResources:
             - name: event_grpc_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -519,7 +519,7 @@ pipelines:
         configuration:
           inputResources:
             - name: event_service_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -529,7 +529,7 @@ pipelines:
         configuration:
           inputResources:
             - name: event_service_e2e_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -539,7 +539,7 @@ pipelines:
         configuration:
           inputResources:
             - name: event_java_client_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -549,7 +549,7 @@ pipelines:
         configuration:
           inputResources:
             - name: artifactory_ci_scripts_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -559,7 +559,7 @@ pipelines:
         configuration:
           inputResources:
             - name: artifactory_release_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -569,7 +569,7 @@ pipelines:
         configuration:
           inputResources:
             - name: installers_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -579,7 +579,7 @@ pipelines:
         configuration:
           inputResources:
             - name: installers_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -589,7 +589,7 @@ pipelines:
         configuration:
           inputResources:
             - name: installers_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -599,7 +599,7 @@ pipelines:
         configuration:
           inputResources:
             - name: artifactory_monorepo_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -609,7 +609,7 @@ pipelines:
         configuration:
           inputResources:
             - name: artifactory_monorepo_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -619,7 +619,7 @@ pipelines:
         configuration:
           inputResources:
             - name: artifactory_monorepo_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -629,7 +629,7 @@ pipelines:
         configuration:
           inputResources:
             - name: artifactory_release_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -639,7 +639,7 @@ pipelines:
         configuration:
           inputResources:
             - name: artifactory_release_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -649,7 +649,7 @@ pipelines:
         configuration:
           inputResources:
             - name: artifactory_release_bitbucket
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -659,7 +659,7 @@ pipelines:
         configuration:
           inputResources:
             - name: installers_bitbucket_5
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -669,7 +669,7 @@ pipelines:
         configuration:
           inputResources:
             - name: installers_bitbucket_4
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -679,7 +679,7 @@ pipelines:
         configuration:
           inputResources:
             - name: installers_bitbucket_3
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -689,7 +689,7 @@ pipelines:
         configuration:
           inputResources:
             - name: installers_bitbucket_2
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
@@ -699,7 +699,7 @@ pipelines:
         configuration:
           inputResources:
             - name: installers_bitbucket_1
-          inputSteps
+          inputSteps:
             - name: trigger_all
         execution:
           onExecute:
