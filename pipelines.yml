@@ -264,7 +264,6 @@ pipelines:
         execution:
           onExecute:
             - echo "trigger_all"
-            - echo "test"
       - name: test_artifactory_monorepo_bitbucket
         type: Bash
         configuration:
